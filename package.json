@@ -26,12 +26,6 @@
     "test": "run-s clean jest",
     "test:verbose": "run-s clean jest:verbose"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npx run-s test",
-      "pre-push": "npx run-s test"
-    }
-  },
   "lint-staged": {
     "*.js": [
       "eslint --fix",
@@ -42,7 +36,7 @@
   "dependencies": {
     "bplist-creator": "0.0.8",
     "bplist-parser": "0.2.0",
-    "plist": "^3.0.1"
+    "plist": "^3.0.1615909617"
   },
   "devDependencies": {
     "eslint": "^7.10.0",
